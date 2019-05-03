@@ -1,0 +1,8 @@
+{
+  "name": "@vg/types",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/node": "^10.5.1",
+    "typescript": "^3.0.1"
+  }
+}

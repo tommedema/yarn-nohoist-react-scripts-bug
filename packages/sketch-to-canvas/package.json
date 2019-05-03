@@ -1,0 +1,23 @@
+{
+  "name": "@vg/sketch-to-canvas",
+  "version": "1.0.0",
+  "dependencies": {
+    "@vg/types": "^1.0.0",
+    "css-property-parser": "^1.0.6",
+    "fs-zip": "^1.0.2",
+    "lodash.merge": "^4.6.1",
+    "rgb-hex": "^2.1.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/lodash.merge": "^4.6.3",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.7.1",
+    "@types/uuid": "^3.4.4",
+    "mocha": "^5.2.0",
+    "should": "^13.2.1",
+    "ts-node": "^7.0.1",
+    "tsconfig-paths": "^3.5.0",
+    "typescript": "^3.0.1"
+  }
+}
