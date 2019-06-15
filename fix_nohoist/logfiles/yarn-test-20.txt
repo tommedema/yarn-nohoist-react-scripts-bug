@@ -1,0 +1,725 @@
+Yarn final install tests.
+
+Tests will be performed for 20 cycles of install/uninstall.
+
+yarn install test 1
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.42s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-5125c9f3-ac9a-4f29-adba-b3336355ad56 > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-5125c9f3-ac9a-4f29-adba-b3336355ad56 > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-5125c9f3-ac9a-4f29-adba-b3336355ad56 > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-5125c9f3-ac9a-4f29-adba-b3336355ad56 > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-5125c9f3-ac9a-4f29-adba-b3336355ad56 > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-5125c9f3-ac9a-4f29-adba-b3336355ad56 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-5125c9f3-ac9a-4f29-adba-b3336355ad56 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-5125c9f3-ac9a-4f29-adba-b3336355ad56 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-5125c9f3-ac9a-4f29-adba-b3336355ad56 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-5125c9f3-ac9a-4f29-adba-b3336355ad56 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-5125c9f3-ac9a-4f29-adba-b3336355ad56 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-5125c9f3-ac9a-4f29-adba-b3336355ad56 > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-functional-notation > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-5125c9f3-ac9a-4f29-adba-b3336355ad56 > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning workspace-aggregator-5125c9f3-ac9a-4f29-adba-b3336355ad56 > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 67.36s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.18s.
+
+yarn install test 2
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 7.71s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-d257429b-2da0-465d-a74a-ef821f4eb54a > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-d257429b-2da0-465d-a74a-ef821f4eb54a > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-d257429b-2da0-465d-a74a-ef821f4eb54a > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-d257429b-2da0-465d-a74a-ef821f4eb54a > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-d257429b-2da0-465d-a74a-ef821f4eb54a > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-d257429b-2da0-465d-a74a-ef821f4eb54a > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-d257429b-2da0-465d-a74a-ef821f4eb54a > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-d257429b-2da0-465d-a74a-ef821f4eb54a > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-d257429b-2da0-465d-a74a-ef821f4eb54a > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-d257429b-2da0-465d-a74a-ef821f4eb54a > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-minify-selectors > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-d257429b-2da0-465d-a74a-ef821f4eb54a > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-gray > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-d257429b-2da0-465d-a74a-ef821f4eb54a > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-d257429b-2da0-465d-a74a-ef821f4eb54a > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning workspace-aggregator-d257429b-2da0-465d-a74a-ef821f4eb54a > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 70.84s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.19s.
+
+yarn install test 3
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 8.47s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-dbd8f412-a26a-4279-9f0b-ae858b94a280 > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-dbd8f412-a26a-4279-9f0b-ae858b94a280 > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-dbd8f412-a26a-4279-9f0b-ae858b94a280 > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-dbd8f412-a26a-4279-9f0b-ae858b94a280 > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-dbd8f412-a26a-4279-9f0b-ae858b94a280 > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-dbd8f412-a26a-4279-9f0b-ae858b94a280 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-dbd8f412-a26a-4279-9f0b-ae858b94a280 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-dbd8f412-a26a-4279-9f0b-ae858b94a280 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-dbd8f412-a26a-4279-9f0b-ae858b94a280 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-dbd8f412-a26a-4279-9f0b-ae858b94a280 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-dbd8f412-a26a-4279-9f0b-ae858b94a280 > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-functional-notation > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-dbd8f412-a26a-4279-9f0b-ae858b94a280 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-dbd8f412-a26a-4279-9f0b-ae858b94a280 > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning workspace-aggregator-dbd8f412-a26a-4279-9f0b-ae858b94a280 > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 75.20s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.18s.
+
+yarn install test 4
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 8.00s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-b2e30cd0-58d0-467c-a152-7c3bda6291f2 > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-b2e30cd0-58d0-467c-a152-7c3bda6291f2 > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-b2e30cd0-58d0-467c-a152-7c3bda6291f2 > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-b2e30cd0-58d0-467c-a152-7c3bda6291f2 > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-b2e30cd0-58d0-467c-a152-7c3bda6291f2 > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-b2e30cd0-58d0-467c-a152-7c3bda6291f2 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-b2e30cd0-58d0-467c-a152-7c3bda6291f2 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-b2e30cd0-58d0-467c-a152-7c3bda6291f2 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-b2e30cd0-58d0-467c-a152-7c3bda6291f2 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-b2e30cd0-58d0-467c-a152-7c3bda6291f2 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-b2e30cd0-58d0-467c-a152-7c3bda6291f2 > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-functional-notation > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-b2e30cd0-58d0-467c-a152-7c3bda6291f2 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-b2e30cd0-58d0-467c-a152-7c3bda6291f2 > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning workspace-aggregator-b2e30cd0-58d0-467c-a152-7c3bda6291f2 > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 70.37s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+
+yarn install test 5
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 7.74s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-54ff68db-33d2-401a-af73-6a1e3032c78a > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-54ff68db-33d2-401a-af73-6a1e3032c78a > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-54ff68db-33d2-401a-af73-6a1e3032c78a > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-54ff68db-33d2-401a-af73-6a1e3032c78a > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-54ff68db-33d2-401a-af73-6a1e3032c78a > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-54ff68db-33d2-401a-af73-6a1e3032c78a > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-54ff68db-33d2-401a-af73-6a1e3032c78a > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-54ff68db-33d2-401a-af73-6a1e3032c78a > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-54ff68db-33d2-401a-af73-6a1e3032c78a > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-54ff68db-33d2-401a-af73-6a1e3032c78a > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-54ff68db-33d2-401a-af73-6a1e3032c78a > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-functional-notation > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-54ff68db-33d2-401a-af73-6a1e3032c78a > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-54ff68db-33d2-401a-af73-6a1e3032c78a > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning workspace-aggregator-54ff68db-33d2-401a-af73-6a1e3032c78a > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 67.96s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.19s.
+
+yarn install test 6
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 7.60s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-552ee4e5-b749-4e04-8b2c-a369c64756b1 > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-552ee4e5-b749-4e04-8b2c-a369c64756b1 > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-552ee4e5-b749-4e04-8b2c-a369c64756b1 > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-552ee4e5-b749-4e04-8b2c-a369c64756b1 > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-552ee4e5-b749-4e04-8b2c-a369c64756b1 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-552ee4e5-b749-4e04-8b2c-a369c64756b1 > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-552ee4e5-b749-4e04-8b2c-a369c64756b1 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-552ee4e5-b749-4e04-8b2c-a369c64756b1 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-552ee4e5-b749-4e04-8b2c-a369c64756b1 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-552ee4e5-b749-4e04-8b2c-a369c64756b1 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-552ee4e5-b749-4e04-8b2c-a369c64756b1 > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-functional-notation > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-552ee4e5-b749-4e04-8b2c-a369c64756b1 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-552ee4e5-b749-4e04-8b2c-a369c64756b1 > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+warning workspace-aggregator-552ee4e5-b749-4e04-8b2c-a369c64756b1 > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 74.42s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.18s.
+
+yarn install test 7
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 7.77s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-04aeae24-7d83-4379-aed1-8f76b3929f60 > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-04aeae24-7d83-4379-aed1-8f76b3929f60 > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-04aeae24-7d83-4379-aed1-8f76b3929f60 > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-04aeae24-7d83-4379-aed1-8f76b3929f60 > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-04aeae24-7d83-4379-aed1-8f76b3929f60 > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-04aeae24-7d83-4379-aed1-8f76b3929f60 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-04aeae24-7d83-4379-aed1-8f76b3929f60 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-04aeae24-7d83-4379-aed1-8f76b3929f60 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-04aeae24-7d83-4379-aed1-8f76b3929f60 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-04aeae24-7d83-4379-aed1-8f76b3929f60 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-minify-selectors > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-04aeae24-7d83-4379-aed1-8f76b3929f60 > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-gray > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-04aeae24-7d83-4379-aed1-8f76b3929f60 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-04aeae24-7d83-4379-aed1-8f76b3929f60 > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning workspace-aggregator-04aeae24-7d83-4379-aed1-8f76b3929f60 > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 80.15s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.20s.
+
+yarn install test 8
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 7.53s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-a4d42538-4c31-48f3-a63c-554e7e22461a > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-a4d42538-4c31-48f3-a63c-554e7e22461a > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-a4d42538-4c31-48f3-a63c-554e7e22461a > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-a4d42538-4c31-48f3-a63c-554e7e22461a > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-a4d42538-4c31-48f3-a63c-554e7e22461a > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-a4d42538-4c31-48f3-a63c-554e7e22461a > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-a4d42538-4c31-48f3-a63c-554e7e22461a > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-a4d42538-4c31-48f3-a63c-554e7e22461a > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-a4d42538-4c31-48f3-a63c-554e7e22461a > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-a4d42538-4c31-48f3-a63c-554e7e22461a > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-a4d42538-4c31-48f3-a63c-554e7e22461a > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-a4d42538-4c31-48f3-a63c-554e7e22461a > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-functional-notation > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-a4d42538-4c31-48f3-a63c-554e7e22461a > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning workspace-aggregator-a4d42538-4c31-48f3-a63c-554e7e22461a > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 74.12s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.18s.
+
+yarn install test 9
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 7.50s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-f444e28a-9e04-40a0-a6a9-abfc7cad0f18 > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-f444e28a-9e04-40a0-a6a9-abfc7cad0f18 > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-f444e28a-9e04-40a0-a6a9-abfc7cad0f18 > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-f444e28a-9e04-40a0-a6a9-abfc7cad0f18 > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-f444e28a-9e04-40a0-a6a9-abfc7cad0f18 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-f444e28a-9e04-40a0-a6a9-abfc7cad0f18 > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-f444e28a-9e04-40a0-a6a9-abfc7cad0f18 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-f444e28a-9e04-40a0-a6a9-abfc7cad0f18 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-f444e28a-9e04-40a0-a6a9-abfc7cad0f18 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-f444e28a-9e04-40a0-a6a9-abfc7cad0f18 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-minify-selectors > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-f444e28a-9e04-40a0-a6a9-abfc7cad0f18 > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-gray > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-f444e28a-9e04-40a0-a6a9-abfc7cad0f18 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-f444e28a-9e04-40a0-a6a9-abfc7cad0f18 > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+warning workspace-aggregator-f444e28a-9e04-40a0-a6a9-abfc7cad0f18 > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 68.03s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.19s.
+
+yarn install test 10
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 8.14s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-55d627a4-00a2-4e60-9b1c-0b40afc8377f > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-55d627a4-00a2-4e60-9b1c-0b40afc8377f > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-55d627a4-00a2-4e60-9b1c-0b40afc8377f > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-55d627a4-00a2-4e60-9b1c-0b40afc8377f > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-55d627a4-00a2-4e60-9b1c-0b40afc8377f > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-55d627a4-00a2-4e60-9b1c-0b40afc8377f > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-55d627a4-00a2-4e60-9b1c-0b40afc8377f > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-55d627a4-00a2-4e60-9b1c-0b40afc8377f > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-55d627a4-00a2-4e60-9b1c-0b40afc8377f > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-55d627a4-00a2-4e60-9b1c-0b40afc8377f > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-55d627a4-00a2-4e60-9b1c-0b40afc8377f > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-55d627a4-00a2-4e60-9b1c-0b40afc8377f > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-gray > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-55d627a4-00a2-4e60-9b1c-0b40afc8377f > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning workspace-aggregator-55d627a4-00a2-4e60-9b1c-0b40afc8377f > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 93.35s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.22s.
+
+yarn install test 11
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.39s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-ef8a8bd6-a896-4290-bee5-a478b8d35565 > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-ef8a8bd6-a896-4290-bee5-a478b8d35565 > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-ef8a8bd6-a896-4290-bee5-a478b8d35565 > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-ef8a8bd6-a896-4290-bee5-a478b8d35565 > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-ef8a8bd6-a896-4290-bee5-a478b8d35565 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-ef8a8bd6-a896-4290-bee5-a478b8d35565 > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-ef8a8bd6-a896-4290-bee5-a478b8d35565 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-ef8a8bd6-a896-4290-bee5-a478b8d35565 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-ef8a8bd6-a896-4290-bee5-a478b8d35565 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-ef8a8bd6-a896-4290-bee5-a478b8d35565 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-ef8a8bd6-a896-4290-bee5-a478b8d35565 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-ef8a8bd6-a896-4290-bee5-a478b8d35565 > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-gray > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-ef8a8bd6-a896-4290-bee5-a478b8d35565 > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+warning workspace-aggregator-ef8a8bd6-a896-4290-bee5-a478b8d35565 > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 101.16s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.22s.
+
+yarn install test 12
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 11.70s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-f18cd532-2b3f-40ac-92fa-c665a620916c > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-f18cd532-2b3f-40ac-92fa-c665a620916c > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-f18cd532-2b3f-40ac-92fa-c665a620916c > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-f18cd532-2b3f-40ac-92fa-c665a620916c > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-f18cd532-2b3f-40ac-92fa-c665a620916c > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-f18cd532-2b3f-40ac-92fa-c665a620916c > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-f18cd532-2b3f-40ac-92fa-c665a620916c > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-f18cd532-2b3f-40ac-92fa-c665a620916c > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-f18cd532-2b3f-40ac-92fa-c665a620916c > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-f18cd532-2b3f-40ac-92fa-c665a620916c > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-f18cd532-2b3f-40ac-92fa-c665a620916c > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-gray > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-f18cd532-2b3f-40ac-92fa-c665a620916c > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-f18cd532-2b3f-40ac-92fa-c665a620916c > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+warning workspace-aggregator-f18cd532-2b3f-40ac-92fa-c665a620916c > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 109.69s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.22s.
+
+yarn install test 13
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.28s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-aeac695f-f91a-4b80-92fe-8c98f103fc8e > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-aeac695f-f91a-4b80-92fe-8c98f103fc8e > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-aeac695f-f91a-4b80-92fe-8c98f103fc8e > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-aeac695f-f91a-4b80-92fe-8c98f103fc8e > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-aeac695f-f91a-4b80-92fe-8c98f103fc8e > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-aeac695f-f91a-4b80-92fe-8c98f103fc8e > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-aeac695f-f91a-4b80-92fe-8c98f103fc8e > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-aeac695f-f91a-4b80-92fe-8c98f103fc8e > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-aeac695f-f91a-4b80-92fe-8c98f103fc8e > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-aeac695f-f91a-4b80-92fe-8c98f103fc8e > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-aeac695f-f91a-4b80-92fe-8c98f103fc8e > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-aeac695f-f91a-4b80-92fe-8c98f103fc8e > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-gray > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-aeac695f-f91a-4b80-92fe-8c98f103fc8e > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning workspace-aggregator-aeac695f-f91a-4b80-92fe-8c98f103fc8e > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 98.74s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+
+yarn install test 14
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.26s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-e2af4c5b-fa41-4549-b5e1-447e464f96b8 > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-e2af4c5b-fa41-4549-b5e1-447e464f96b8 > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-e2af4c5b-fa41-4549-b5e1-447e464f96b8 > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-e2af4c5b-fa41-4549-b5e1-447e464f96b8 > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-e2af4c5b-fa41-4549-b5e1-447e464f96b8 > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-e2af4c5b-fa41-4549-b5e1-447e464f96b8 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-e2af4c5b-fa41-4549-b5e1-447e464f96b8 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-e2af4c5b-fa41-4549-b5e1-447e464f96b8 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-e2af4c5b-fa41-4549-b5e1-447e464f96b8 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-e2af4c5b-fa41-4549-b5e1-447e464f96b8 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-e2af4c5b-fa41-4549-b5e1-447e464f96b8 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-e2af4c5b-fa41-4549-b5e1-447e464f96b8 > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-functional-notation > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-e2af4c5b-fa41-4549-b5e1-447e464f96b8 > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning workspace-aggregator-e2af4c5b-fa41-4549-b5e1-447e464f96b8 > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 105.20s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+
+yarn install test 15
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 8.66s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-47c6e90d-a5ee-4913-91b8-878ef46c9e0c > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-47c6e90d-a5ee-4913-91b8-878ef46c9e0c > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-47c6e90d-a5ee-4913-91b8-878ef46c9e0c > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-47c6e90d-a5ee-4913-91b8-878ef46c9e0c > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-47c6e90d-a5ee-4913-91b8-878ef46c9e0c > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-47c6e90d-a5ee-4913-91b8-878ef46c9e0c > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-47c6e90d-a5ee-4913-91b8-878ef46c9e0c > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-47c6e90d-a5ee-4913-91b8-878ef46c9e0c > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-47c6e90d-a5ee-4913-91b8-878ef46c9e0c > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-47c6e90d-a5ee-4913-91b8-878ef46c9e0c > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-47c6e90d-a5ee-4913-91b8-878ef46c9e0c > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-47c6e90d-a5ee-4913-91b8-878ef46c9e0c > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-functional-notation > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-47c6e90d-a5ee-4913-91b8-878ef46c9e0c > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning workspace-aggregator-47c6e90d-a5ee-4913-91b8-878ef46c9e0c > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 127.04s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+
+yarn install test 16
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.62s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-55916a96-c039-4323-a116-618882ebaa86 > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-55916a96-c039-4323-a116-618882ebaa86 > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-55916a96-c039-4323-a116-618882ebaa86 > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-55916a96-c039-4323-a116-618882ebaa86 > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-55916a96-c039-4323-a116-618882ebaa86 > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-55916a96-c039-4323-a116-618882ebaa86 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-55916a96-c039-4323-a116-618882ebaa86 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-55916a96-c039-4323-a116-618882ebaa86 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-55916a96-c039-4323-a116-618882ebaa86 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-55916a96-c039-4323-a116-618882ebaa86 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-55916a96-c039-4323-a116-618882ebaa86 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-55916a96-c039-4323-a116-618882ebaa86 > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-gray > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-55916a96-c039-4323-a116-618882ebaa86 > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning workspace-aggregator-55916a96-c039-4323-a116-618882ebaa86 > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 109.33s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.23s.
+
+yarn install test 17
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.40s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-c633a564-8e86-4e1e-a2c1-2529a955f5e2 > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-c633a564-8e86-4e1e-a2c1-2529a955f5e2 > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-c633a564-8e86-4e1e-a2c1-2529a955f5e2 > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-c633a564-8e86-4e1e-a2c1-2529a955f5e2 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-c633a564-8e86-4e1e-a2c1-2529a955f5e2 > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-c633a564-8e86-4e1e-a2c1-2529a955f5e2 > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-c633a564-8e86-4e1e-a2c1-2529a955f5e2 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-c633a564-8e86-4e1e-a2c1-2529a955f5e2 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-c633a564-8e86-4e1e-a2c1-2529a955f5e2 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-c633a564-8e86-4e1e-a2c1-2529a955f5e2 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-c633a564-8e86-4e1e-a2c1-2529a955f5e2 > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-gray > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-c633a564-8e86-4e1e-a2c1-2529a955f5e2 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-c633a564-8e86-4e1e-a2c1-2529a955f5e2 > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning workspace-aggregator-c633a564-8e86-4e1e-a2c1-2529a955f5e2 > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 102.76s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+
+yarn install test 18
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.85s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-64cc67c5-5f77-4cb6-967a-945f54f06e73 > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-64cc67c5-5f77-4cb6-967a-945f54f06e73 > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-64cc67c5-5f77-4cb6-967a-945f54f06e73 > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-64cc67c5-5f77-4cb6-967a-945f54f06e73 > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-64cc67c5-5f77-4cb6-967a-945f54f06e73 > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-64cc67c5-5f77-4cb6-967a-945f54f06e73 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-64cc67c5-5f77-4cb6-967a-945f54f06e73 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-64cc67c5-5f77-4cb6-967a-945f54f06e73 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-64cc67c5-5f77-4cb6-967a-945f54f06e73 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-64cc67c5-5f77-4cb6-967a-945f54f06e73 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-64cc67c5-5f77-4cb6-967a-945f54f06e73 > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-hex-alpha > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-64cc67c5-5f77-4cb6-967a-945f54f06e73 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-64cc67c5-5f77-4cb6-967a-945f54f06e73 > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+warning workspace-aggregator-64cc67c5-5f77-4cb6-967a-945f54f06e73 > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 113.48s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.20s.
+
+yarn install test 19
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.39s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-41678ebd-a1a1-4161-a434-3a24166d19d4 > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-41678ebd-a1a1-4161-a434-3a24166d19d4 > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-41678ebd-a1a1-4161-a434-3a24166d19d4 > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-41678ebd-a1a1-4161-a434-3a24166d19d4 > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-41678ebd-a1a1-4161-a434-3a24166d19d4 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-41678ebd-a1a1-4161-a434-3a24166d19d4 > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-41678ebd-a1a1-4161-a434-3a24166d19d4 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-41678ebd-a1a1-4161-a434-3a24166d19d4 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-41678ebd-a1a1-4161-a434-3a24166d19d4 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-41678ebd-a1a1-4161-a434-3a24166d19d4 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-41678ebd-a1a1-4161-a434-3a24166d19d4 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-41678ebd-a1a1-4161-a434-3a24166d19d4 > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-gray > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-41678ebd-a1a1-4161-a434-3a24166d19d4 > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+warning workspace-aggregator-41678ebd-a1a1-4161-a434-3a24166d19d4 > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 128.06s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+
+yarn install test 20
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.12s.
+yarn install v1.16.0
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning workspace-aggregator-e16500df-3ad2-44d5-91cf-69bce2703cc9 > @vg/document-to-react > @types/pkg-dir@2.0.1: This is a stub types definition. pkg-dir provides its own type definitions, so you do not need this installed.
+warning workspace-aggregator-e16500df-3ad2-44d5-91cf-69bce2703cc9 > @vg/vg-local-ui-client > react-scripts > extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning workspace-aggregator-e16500df-3ad2-44d5-91cf-69bce2703cc9 > @vg/frontshop > react-scripts > fsevents@2.0.6: Please update: there are crash fixes
+warning workspace-aggregator-e16500df-3ad2-44d5-91cf-69bce2703cc9 > @vg/vg-local-ui-client > react-scripts > autoprefixer > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-e16500df-3ad2-44d5-91cf-69bce2703cc9 > @vg/vg-local-ui-client > react-scripts > babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-e16500df-3ad2-44d5-91cf-69bce2703cc9 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-e16500df-3ad2-44d5-91cf-69bce2703cc9 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache@5.2.1: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-e16500df-3ad2-44d5-91cf-69bce2703cc9 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-e16500df-3ad2-44d5-91cf-69bce2703cc9 > @vg/vg-local-ui-client > react-scripts > sw-precache-webpack-plugin > sw-precache > sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+warning workspace-aggregator-e16500df-3ad2-44d5-91cf-69bce2703cc9 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning workspace-aggregator-e16500df-3ad2-44d5-91cf-69bce2703cc9 > @vg/vg-local-ui-client > react-scripts > css-loader > cssnano > postcss-merge-rules > postcss-selector-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-e16500df-3ad2-44d5-91cf-69bce2703cc9 > @vg/frontshop > react-scripts > postcss-preset-env > postcss-color-gray > postcss-values-parser > flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+warning workspace-aggregator-e16500df-3ad2-44d5-91cf-69bce2703cc9 > @vg/vg-local-ui-client > react-scripts > eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning workspace-aggregator-e16500df-3ad2-44d5-91cf-69bce2703cc9 > @vg/frontshop > react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > left-pad@1.3.0: use String.prototype.padStart()
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+Done in 116.54s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+
+ Yarn test cycles complete.
