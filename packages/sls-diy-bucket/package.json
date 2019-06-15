@@ -1,6 +1,12 @@
 {
   "name": "@vg/sls-diy-bucket",
   "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "nohoist": [
+      "*"
+    ]
+  },
   "dependencies": {
     "@vg/types": "^1.0.0",
     "@vg/vgcli": "^1.0.0",

@@ -8,7 +8,9 @@
       "packages/*"
     ],
     "nohoist": [
-      "@vg/sls-diy-bucket/**"
+      "**packages/sls-diy-bucket",
+      "**packages/sls-diy-bucket/**",
+      "packages/sls-diy-bucket/**"
     ]
   },
   "devDependencies": {
@@ -21,6 +23,9 @@
     "typescript": "^3.0.1"
   },
   "scripts": {
+    "preinstall": "yarn run clean-incl-deps",
+    "postinstall": "yarn check --integrity && yarn check --verify-tree",
+    "preinstall-cache-clean": "yarn run clean-incl-deps && yarn cache clean",
     "clean": "yarn run clean-dist && yarn run clean-output && yarn run clean-logs",
     "clean-incl-deps": "yarn run clean && yarn run clean-deps",
     "clean-output": "rm -fr output && rm -fr */**/output",
