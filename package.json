@@ -23,7 +23,7 @@
     "typescript": "^3.0.1"
   },
   "scripts": {
-    "preinstall": "yarn run clean-incl-deps",
+    "preinstall_original": "yarn run clean-incl-deps",
     "postinstall": "yarn check --integrity && yarn check --verify-tree",
     "preinstall-cache-clean": "yarn run clean-incl-deps && yarn cache clean",
     "clean": "yarn run clean-dist && yarn run clean-output && yarn run clean-logs",
