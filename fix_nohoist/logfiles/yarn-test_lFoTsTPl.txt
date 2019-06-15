@@ -1,0 +1,689 @@
+
+Testing Yarn 'nohoist' fix. Log sent to /tmp/yarn-test_lFoTsTPl.txt
+
+
+Tests will be performed for 20 cycles of install/uninstall.
+
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.13s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.51s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.80s.
+Done in 99.37s.
+yarn install test 1 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.46s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 2.10s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.28s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.63s.
+Done in 100.80s.
+yarn install test 2 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 10.77s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.64s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.67s.
+Done in 95.21s.
+yarn install test 3 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.44s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.53s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.48s.
+Done in 101.64s.
+yarn install test 4 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 8.83s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.57s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.20s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.57s.
+Done in 97.40s.
+yarn install test 5 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 8.65s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.59s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.22s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.59s.
+Done in 92.93s.
+yarn install test 6 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.16s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.59s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.24s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.47s.
+Done in 93.06s.
+yarn install test 7 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.02s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.56s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.20s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.72s.
+Done in 93.61s.
+yarn install test 8 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.37s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.63s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.58s.
+Done in 90.38s.
+yarn install test 9 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 8.66s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.46s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.20s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.42s.
+Done in 93.15s.
+yarn install test 10 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 10.28s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.47s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.49s.
+Done in 93.48s.
+yarn install test 11 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.16s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.53s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.67s.
+Done in 95.62s.
+yarn install test 12 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.38s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.58s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.38s.
+Done in 101.70s.
+yarn install test 13 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.29s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.49s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.29s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.91s.
+Done in 97.19s.
+yarn install test 14 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 8.63s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.55s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.21s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.58s.
+Done in 105.64s.
+yarn install test 15 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.17s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 2.46s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.20s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.55s.
+Done in 97.11s.
+yarn install test 16 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 8.78s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.64s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.26s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.41s.
+Done in 96.92s.
+yarn install test 17 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 9.14s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 2.30s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.23s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.51s.
+Done in 98.38s.
+yarn install test 18 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 10.16s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.57s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.30s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.58s.
+Done in 94.20s.
+yarn install test 19 success.
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 8.84s.
+yarn install v1.16.0
+info No lockfile found.
+$ yarn run clean-incl-deps
+yarn run v1.16.0
+$ yarn run clean && yarn run clean-deps
+$ yarn run clean-dist && yarn run clean-output && yarn run clean-logs
+$ rm -fr packages/*/dist && rm -fr packages/*/build && rm -fr packages/*/.serverless && rm -fr packages/*/tsconfig.tsbuildinfo
+$ rm -fr output && rm -fr */**/output
+$ rm -f *.log && rm -fr */**/*.log
+$ rm -fr node_modules && rm -fr packages/*/node_modules && rm -f yarn.lock && rm -fr */**/yarn.lock
+Done in 1.46s.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+success Saved lockfile.
+$ yarn check --integrity && yarn check --verify-tree
+yarn check v1.16.0
+success Folder in sync.
+Done in 0.20s.
+yarn check v1.16.0
+success Folder in sync.
+Done in 1.74s.
+Done in 89.78s.
+yarn install test 20 success.
+
+Yarn test cycles complete with 0 errors.
+
